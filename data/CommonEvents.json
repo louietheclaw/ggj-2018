@@ -1,0 +1,12 @@
+[
+null,
+{"id":1,"list":[{"code":230,"indent":0,"parameters":[60]},{"code":122,"indent":0,"parameters":[1,1,1,0,1]},{"code":111,"indent":0,"parameters":[1,1,0,59,3]},{"code":122,"indent":1,"parameters":[2,2,1,0,1]},{"code":122,"indent":1,"parameters":[1,1,0,0,0]},{"code":111,"indent":1,"parameters":[1,2,0,59,3]},{"code":122,"indent":2,"parameters":[3,3,1,0,1]},{"code":122,"indent":2,"parameters":[2,2,0,0,0]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Formatted Time Tracking","switchId":1,"trigger":2},
+{"id":2,"list":[{"code":230,"indent":0,"parameters":[60]},{"code":122,"indent":0,"parameters":[4,4,1,0,1]},{"code":0,"indent":0,"parameters":[]}],"name":"Basic Time Tracking","switchId":1,"trigger":2},
+{"id":3,"list":[{"code":356,"indent":0,"parameters":["MapZoom set 1.5 duration 1"]},{"code":0,"indent":0,"parameters":[]}],"name":"Zoom","switchId":1,"trigger":2},
+{"id":4,"list":[{"code":122,"indent":0,"parameters":[5,5,0,0,1]},{"code":0,"indent":0,"parameters":[]}],"name":"Char1","switchId":1,"trigger":0},
+{"id":5,"list":[{"code":122,"indent":0,"parameters":[8,8,0,0,1]},{"code":0,"indent":0,"parameters":[]}],"name":"Char2","switchId":1,"trigger":0},
+{"id":6,"list":[{"code":111,"indent":0,"parameters":[1,11,0,2,1]},{"code":122,"indent":1,"parameters":[7,7,0,0,1]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Char3","switchId":1,"trigger":0},
+{"id":7,"list":[{"code":111,"indent":0,"parameters":[1,11,0,3,1]},{"code":122,"indent":1,"parameters":[6,6,0,0,1]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Char4","switchId":1,"trigger":0},
+{"id":8,"list":[{"code":111,"indent":0,"parameters":[1,11,0,4,1]},{"code":122,"indent":1,"parameters":[9,9,0,0,1]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Char5","switchId":1,"trigger":0},
+{"id":9,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+]
