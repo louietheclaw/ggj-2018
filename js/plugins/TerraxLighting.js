@@ -227,6 +227,7 @@ Imported.TerraxLighting = true;
 	var event_moving = [];
 	var event_stacknumber = [];
 	var event_eventcount = 0;
+	var event_growth = [];
 
 	var tile_lights = [];
 	var tile_blocks = [];
@@ -1925,7 +1926,6 @@ Imported.TerraxLighting = true;
 
 
 								if (note_command == "light" || note_command == "fire" || note_command == "flashlight") {
-
 									var objectflicker = false;
 									if (note_command == "fire") {
 										objectflicker = true;
@@ -2276,10 +2276,19 @@ Imported.TerraxLighting = true;
 												}
 											}
 
+											var lightgrow_target = light_radius;
+											var lightgrow_speed = 0.0;
+											console.error("Hello world");
+											//growing
+											if (event_growth[i] == undefined) event_growth[i] = 0;
+											if (event_growth[i] < lightgrow_target) {
+												lightgrow_speed = (lightgrow_target * 0.012);
+												event_growth[i] += lightgrow_speed;
+											}
 											if (flashlight == true) {
-												this._maskBitmap.radialgradientFillRect2(lx1, ly1, 0, light_radius, colorvalue, '#000000', ldir, flashlength, flashwidth);
+												this._maskBitmap.radialgradientFillRect2(lx1, ly1, 0, event_growth[i], colorvalue, '#000000', ldir, flashlength, flashwidth);
 											} else {
-												this._maskBitmap.radialgradientFillRect(lx1, ly1, 0, light_radius, colorvalue, '#000000', objectflicker, brightness, direction);
+												this._maskBitmap.radialgradientFillRect(lx1, ly1, 0, event_growth[i], colorvalue, '#000000', objectflicker, brightness, direction);
 											}
 
 										}
